@@ -1,0 +1,25 @@
+.action-text{ 
+  font-family: sans-serif; 
+  padding: 3rem;
+  font-size: 3rem;
+  line-height: 1.5;
+  transition: all 725ms ease-in-out;
+
+}
+.text-center{
+  position:absolute;
+  bottom:20%;
+  right:50%;
+  display: block;
+}
+table{
+  text-align: center;
+  box-shadow:  0px 0px 16px 0px rgba(0,0,0,0.6);
+}
+table thead{
+  background: #343b44;  
+  color: white;
+}
+i{
+  pointer-events: none;
+}

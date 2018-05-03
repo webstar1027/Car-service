@@ -1,0 +1,124 @@
+table {	
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: white;
+	font-weight: 300;
+	border: 1px solid #fefefe;
+	text-align: center;
+	color:black;
+}
+table thead{
+  background: #343b44;  
+  color: white;
+}
+.panel-primary{
+	border: none;
+}
+.panel-primary > .panel-heading {
+	background-color: #343b44;
+	height: 8vh;
+  box-sizing: border-box;
+  z-index: 1;
+  border-radius: 5px;
+   box-shadow: 10px 10px 5px #888888;
+
+}
+.panel-body{
+  border:none;
+}
+.edit{
+	cursor: pointer;
+}
+.delete{
+	cursor: pointer;
+}
+input .form-control-solid{
+	width: 30vw;
+}
+ul{
+  list-style-type: none;
+}
+.search-result ul li{
+  float: left;
+  padding-left:30px;
+}
+small{
+  font-size: 100%;
+}
+.loader {
+	position:absolute;
+	top:40%;
+	left: 50%;
+  border: 8px solid white;
+  border-radius: 50%;
+  border-top: 8px solid #4285f4;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+#service_name{
+  border: 2px solid #4caf50;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  padding:50px; 
+}
+.search-result{
+  border: 2px solid #4caf50;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  padding:50px;
+
+ 
+}
+.panel-body .search-result h5{
+  border-left: 6px solid #f1a20f;
+  padding-left: 15px;
+  padding-top: 2px;
+  height: 22px;
+}
+.search-result p{
+  padding-left:20px;
+}
+div .panel-body .search-result:hover{
+ 
+  transition: all 250ms ease;
+  padding:50px;  
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.search-result small {
+  font-weight: bold;
+}
+.search-result li span{
+  padding-left:-10px;
+}
+#service_name h3{
+  text-transform: capitalize;
+}
+.rating-star:before{
+    color: #4caf50;   
+    font-size: 1.05em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content:"\f005";
+   
+  }
+.rating-star-empty:before{
+  color: #ddd;    
+  font-size: 1.05em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content:"\f005";
+
+}

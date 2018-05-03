@@ -1,0 +1,43 @@
+.shop-detail{
+   border: 2px solid #4caf50;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  padding:50px;
+  box-shadow: inset 6px 0 0 0 #4caf50;
+  border-radius: 5px;
+ 
+}
+.shop-detail h4{
+  border-left: 6px solid #f1a20f;
+  padding-left: 15px;
+  padding-top: 2px;
+  height: 22px;
+}
+.shop-detail p{
+  padding-left:20px;
+}
+table{
+  box-sizing: border-box;
+  box-shadow: inset 0 0 7px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
+table thead{
+ 
+  color:white;
+  background: #343b44;  
+}
+small{
+  font-weight: bold;
+  font-size:15px;
+}
+#myModal{
+  position:absolute;
+  top: 20%;
+  left: 13%;
+}
+.modal-header, .modal-footer{
+  border:none;
+}
+.modal-body{
+  text-align: center;
+}

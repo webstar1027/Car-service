@@ -1,0 +1,66 @@
+.user-profile{
+  justify-content: center;
+  background-color: #fefefe;
+  box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.3);
+  padding:50px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 140px;
+}
+.user-profile h5 {
+	border-left: 5px solid #37a000;
+	padding-left:20px;
+	color:#1c3e5c;
+	text-transform: scale(1.5);
+	line-height: 18px;
+}
+.user-profile label {
+	padding-left:25px;
+	color: #1c3e5c;
+	font-weight: 100;
+}
+.user-profile .row{
+	margin-bottom: 15px;
+}
+.user-profile input {
+	border:none;
+}
+.user-profile .row .row{
+	padding-left:40px;
+}
+.user-profile .row .row h5{
+	border:none;	
+	font-size: 12px;
+	padding: 0;
+}
+.user-profile label > input {
+	    box-sizing: content-box;
+    box-shadow: 1px 2px 2px 1px rgba(0,0,0, 0.3);
+}
+.user-profile .row .row select{	
+	width: 20vw;
+	font-size: 13px;
+}
+.user-profile select option{
+	font-size: 13px;
+}
+input[type=checkbox] { display:none; cursor: pointer; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  cursor: pointer;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; font-size: 20px; cursor: pointer;} /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; cursor: pointer;} /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; font-size: 20px; cursor: pointer;} /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; cursor: pointer;} /* allow space for check mark */
+
+#usercar_form .form-control-feedback{
+	top:10px;
+	right:20%;
+}
+#usercar_form .has-feedback .form-control-feedback{
+	
+}

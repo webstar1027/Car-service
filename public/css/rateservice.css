@@ -1,0 +1,107 @@
+ul{
+  list-style-type: none;
+}
+
+table{
+	text-align: center;
+	justify-content: center;
+	background-color: #fefefe;
+	box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.3);
+	padding:15px;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+table thead{
+	background-color: #272727;
+	color: white;
+}
+table tbody td:hover {
+	transform: scale(1.05);
+	transition: 0.5ms all ease;
+	color:#37a000;
+}
+/*table tbody td a:hover{
+	color:#37a000;
+}*/
+.rate-assist{
+  border: 2px solid #4caf50;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  padding:50px;
+  box-shadow: inset 6px 0 0 0 #4caf50;
+  border-radius: 5px;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 30px;
+    padding-left: 30%;
+}
+.rating span.star {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+}
+.rating span.star:hover{
+  color: #4caf50; 
+}
+.rating span.star:before {
+    content: "\f006";
+    padding-right: 5px;
+    color: #777;
+}
+#myModal{
+  position:absolute;
+  top:30%;
+  left: 10%;
+}
+.modal-header, .modal-footer{
+  border:none;
+}
+.modal-body{
+  margin-bottom: 50px;
+}
+fieldset, label { margin: 0; padding: 0; }
+
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.05em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+  float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #ffd700;text-shadow: 1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);} /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #ffd700;  } 
+table > .rating > label{
+  font-size: 0.5em;
+}

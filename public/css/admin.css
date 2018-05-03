@@ -1,0 +1,65 @@
+table {
+	
+  	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: white;
+	background: white;
+	font-weight: 300;
+	border: 1px solid #fefefe;
+	text-align: center;
+	color:black;
+}
+table thead{
+  background: #343b44;  
+  color: white;
+}
+.panel-primary {
+	border: 1px solid #344b43;
+}
+.panel-primary > .panel-heading {
+	background-color: #343b44;
+	height: 8vh;
+
+}
+.edit{
+	cursor: pointer;
+}
+.delete{
+	cursor: pointer;
+}
+input .form-control-solid{
+	width: 30vw;
+}
+.loader {
+	position:absolute;
+	top:40%;
+	left: 50%;
+    border: 8px solid white;
+    border-radius: 50%;
+    border-top: 8px solid #4285f4;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+#category_select{
+  border: 2px solid #4caf50;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  padding:50px;
+  box-shadow: inset 6px 0 0 0 #4caf50;
+  border-radius: 5px;
+}
+i{
+  pointer-events: none;
+}

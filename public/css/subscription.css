@@ -1,0 +1,31 @@
+bold{  
+    font-size: 28px;            
+    color: #1b1b1b;  
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rokkitt', serif;
+}
+.col-md-8{
+  margin-top: 60px;
+  border: 1px solid #0f7d3f;
+  border-radius: 5px;
+}
+ul{
+  list-style-type: square;
+  text-align: center;
+  justify-content: center;
+
+}
+ul > li {
+    font-size: 20px;            
+    color: #1b1b1b;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rokkitt', serif;
+}
+.col-md-8 p{
+ font-size: 18px !important;
+ font-family: 'Roboto', sans-serif;
+ font-family: 'Rokkitt', serif;
+ text-align: center;
+ text-align: justify !important;
+}

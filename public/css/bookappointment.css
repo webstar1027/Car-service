@@ -1,0 +1,59 @@
+
+.appointment-status{
+  background: #EEE;
+  width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+.week-appointment{
+  background: #EEE;
+  margin: 20px auto;
+  width: 600px; 
+  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+
+.weekday{  
+  padding: 15px;
+  font-size: 15px;  
+  border-bottom: 1px solid #ccc;
+}
+#Monday, #Tuesday, #Wednesday, #Thursday, #Friday,#Saturday, #Sunday{
+  background-color: #fff; 
+  border-bottom: 1px solid #ccc;
+
+}
+
+.modal-header, .modal-footer{
+  border: none;
+}
+.modal-body{
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+#myModal1{
+  margin-top: 200px;
+}
+table{
+	text-align: center;
+	justify-content: center;
+  
+}
+table > tbody > tr >td{
+  
+  border:none !important;
+}
+input[type=checkbox] { display:none; cursor: pointer; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  cursor: pointer;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; font-size: 20px; cursor: pointer;} /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; cursor: pointer;} /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; font-size: 20px; cursor: pointer;} /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; cursor: pointer;} /* allow space for check mark */

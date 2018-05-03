@@ -1,0 +1,23 @@
+body{
+  background-color: #eeeeee;
+}
+.panel-primary >.panel-heading {
+  color: #fff;
+  background-color: #343b44; 
+  border-color: #343b44;
+}
+.profile{
+	float: right;
+}
+table{
+	border-collapse:separate; 
+    border-spacing:0 10px;
+}
+.profile-content{
+	justify-content: center;
+	background-color: #fefefe;
+	box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.3);
+	padding:15px;
+	box-sizing: border-box;
+	border-radius: 4px;
+}

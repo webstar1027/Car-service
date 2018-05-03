@@ -1,0 +1,25 @@
+ul{
+  list-style-type: none;
+}
+
+table{
+	text-align: center;
+	justify-content: center;
+	background-color: #fefefe;
+	box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.3);
+	padding:15px;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+table thead{
+	background-color: #272727;
+	color: white;
+}
+table tbody td:hover {
+	transform: scale(1.05);
+	transition: 0.5ms all ease;
+	color:#37a000;
+}
+table tbody td a:hover{
+	color:#37a000;
+}

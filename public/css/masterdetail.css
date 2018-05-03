@@ -1,0 +1,56 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url(http://fonts.googleapis.com/css? family=Oswald:400,300,700);
+table {
+  
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background: white;
+  background: white;
+  font-weight: 300;
+  border: 1px solid #fefefe;
+  text-align: center;
+  color:black;
+  box-shadow: inset 0px 0px 16px 0px rgba(0,0,0,0.6);
+}
+table thead{
+  background: #343b44;  
+  color: white;
+}
+.panel-primary > .panel-heading {
+  background-color: #343b44;
+  height: 8vh;
+
+}
+.panel-primary{
+  border: 1px solid #344b43;
+}  
+
+.master-detail{
+  border: 2px solid #4caf50;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  padding:50px;
+  box-shadow: inset 6px 0 0 0 #4caf50;
+  border-radius: 5px;
+}
+.master-detail h4{
+  border-left: 6px solid #f1a20f;
+  padding-left: 15px;
+  padding-top: 2px;
+  height: 22px;
+}
+.master-detail p{
+  padding-left:20px;
+}
+input[type=checkbox] { display:none; cursor: pointer; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  cursor: pointer;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; font-size: 20px; cursor: pointer;} /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; cursor: pointer;} /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; font-size: 20px; cursor: pointer;} /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; cursor: pointer;} /* allow space for check mark */

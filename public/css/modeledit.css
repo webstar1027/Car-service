@@ -1,0 +1,68 @@
+
+table {
+  
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: white;
+  background: white;
+  font-weight: 300;
+  border: 1px solid #fefefe;
+  text-align: center;
+  color:black;
+}
+table thead{
+  background: #343b44;  
+  color: white;
+}
+.panel-primary > .panel-heading {
+  background-color: #343b44;
+  height: 8vh;
+
+}
+.panel-primary{
+  border: 1px solid #344b43;
+}
+    
+#make_year{
+  border: 2px solid #4caf50;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  padding:50px;
+  box-shadow: inset 6px 0 0 0 #4caf50;
+  border-radius: 5px;
+  
+}
+.paginate-link{
+  position:absolute;
+  left: 50%;
+  top: 50%;
+}
+
+input[type=checkbox] { display:none; cursor: pointer; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  cursor: pointer;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; font-size: 20px; cursor: pointer;} /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; cursor: pointer;} /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; font-size: 20px; cursor: pointer;} /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; cursor: pointer;} /* allow space for check mark */
+
+.rating:before{
+  color:#4caf50;
+  font-size: 1.55em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content:"\f06a"; 
+
+}
+#text-inform{
+  font-size: 1.25em;
+  font-weight: 700;
+ 
+  font-family: "Times New Roman", Times, serif;
+  
+}
